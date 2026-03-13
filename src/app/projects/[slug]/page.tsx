@@ -24,8 +24,6 @@ export default async function ProjectCaseStudyPage({ params }: Props) {
 
   const project = projects.find((p) => p.slug === slug);
 
-  console.log(project?.snapshot);
-
   if (!project) notFound();
 
   return (
