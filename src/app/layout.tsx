@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://jasoncox,dev'),
+  metadataBase: new URL('https://jasoncox.dev'),
   title: 'Jason Cox | Full-Stack Developer',
   description:
     'Portfolio of Jason Cox, a full-stack developer building modern web applications with React, Node.js, and related technologies.',
