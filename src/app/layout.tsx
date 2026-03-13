@@ -9,15 +9,26 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://jasoncox.dev'),
   title: 'Jason Cox | Full-Stack Developer',
   description:
-    'Portfolio of Jason Cox, a full-stack developer building modern web applications with React, Node.js, and related technologies.',
+    'Full-stack developer building modern web applications with React, Node.js, and PostgreSQL.',
+
   icons: {
     icon: '/favicon1.png',
   },
   openGraph: {
-    title: 'Jason Cox Portfolio',
-    description: 'Welcome to My Portfolio',
-    images: [{ url: '/favicon1.png' }],
+    title: 'Jason Cox | Full-Stack Developer',
+    description:
+      'Full-stack developer building modern web applications with React, Node.js, and modern backend systems.',
     url: 'https://jasoncox.dev',
+    siteName: 'Jason Cox Portfolio',
+    images: [
+      {
+        url: new URL('/og', new URL('https://jasoncox.dev')).toString(),
+        width: 1200,
+        height: 630,
+        alt: 'Jason Cox Open Graph Image',
+      },
+    ],
+    type: 'website',
   },
 };
 
